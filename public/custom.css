@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Noto+Sans&family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo-dark img {
+    margin-bottom: 6px;
+}
+
+p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    font-style: normal;
+}
+
+li {
+    color: #777777;
+}
+
+.lines, .lines:before, .lines:after {
+    background-color: #484848 !important;
+}
+
+#mainMenu nav > ul > li.hover-active > a, #mainMenu nav > ul > li .dropdown-menu > li:hover > a, #mainMenu nav > ul > li .dropdown-menu > li:focus > a, #mainMenu nav > ul > li .dropdown-menu > li:active > a {
+    color: #a66d3f;
+}
+
+.btn {
+    display: inline-block;
+    position: relative !important;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600 !important;
+    border-radius: 5px !important;
+    text-transform: capitalize !important;
+    transition: all .2s;
+}
+
+#header .header-inner {
+    height: 100px !important;
+}
+
+#header {
+    height: 100px !important;
+    line-height: 100px !important;
+}
+
+#mainMenu nav > ul > li > a {
+    padding: 10px 10px;
+}
+
+#mainMenu nav ul li a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+.bgcolor1 {
+    background-color: rgba(48, 44, 60, 1);
+}
+
+.bgcoloro5 {
+    background-color: rgba(48, 44, 60, .5);
+}
+
+.bottomBanner h1, .midBanner h2, .portfolio-links h2, h4, .h-screen h1, .postBanner h2 {
+    font-family: 'Open Sans', serif !important;
+}
+
+.h-screen .bg-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.h-screen h1 {
+    color: white;
+    text-shadow: 1px 1px darkgrey;
+}
+
+#header.dark .header-inner {
+    background: #fff !important;
+}
+
+button.btn {
+    background-color: #004c4c !important;
+    border-color: #7e5235 !important;
+    color: #fff !important;
+}
+
+.dark #header .header-inner, .dark #header #header-wrap, #header.dark .header-inner, #header.dark #header-wrap {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .60) 0, rgba(0, 0, 0, .60) 95%);
+    opacity: 1;
+}
+
+#header.header-sticky.sticky-active .header-inner, #header.header-sticky.sticky-active #header-wrap {
+    box-shadow: none;
+
+}
+
+.color-black {
+    color: #000 !important;
+}
+
+.dark #mainMenu nav > ul > li > a {
+    color: #000000;
+}
+
+.dark #mainMenu nav > ul > li:hover > a, .dark #mainMenu nav > ul > li:focus > a, #mainMenu nav > ul > li:hover > a, #mainMenu nav > ul > li:focus > a, #mainMenu nav > ul > li .dropdown-menu > li > a:hover, .dark #mainMenu nav > ul > li .dropdown-menu > li > a:hover {
+    color: #a66d3f;
+}
+
+.ac-content ul {
+    padding-left: 20px;
+}
+
+.single-post ul {
+    padding-left: 20px;
+}
+
+.table td, .table th {
+
+    border-top: 1px solid #000;
+}
+
+.tabs .nav-tabs .nav-item {
+    margin: auto;
+    margin-bottom: -2px;
+
+}
+
+a {
+    color: #FCB030;
+}
+
+a:hover {
+    color: #d28b10;
+}
+
+a:focus {
+    color: #d28b10;
+}
+
+
+.titleHeight {
+    height: 225px
+}
+
+.titleHeight2 {
+    height: 125px
+}
+
+
+.heading-text h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #a66d3f;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.heading-text p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px;
+    font-size: 16px;
+    max-width: 600px;
+}
+
+.copyright-text {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px;
+    color: white;
+
+}
+
+button.btn.btn-icon-holder i, .btn:not(.close):not(.mfp-close).btn-icon-holder i {
+    margin-left: 40px;
+    margin-right: 6px;
+}
+
+.portfolio-item-wrap .portfolio-links h2, h4 {
+    color: #fff;
+}
+
+#footer .copyright-content {
+    background-color: #004c4c;
+}
+
+.btn:not(.close):not(.mfp-close).btn-outline, a.btn:not([href]):not([tabindex]).btn-outline {
+    border-color: #004c4c;
+    color: #004c4c;
+}
+
+.btn:not(.close):not(.mfp-close).btn-outline:hover {
+    background-color: #004c4c;
+    border-color: #004c4c;
+}
+
+.portfolio-item .portfolio-links a:hover i {
+    background-color: #004c4c;
+    border: 1px solid #004c4c;
+}
+
+.lead {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 14px;
+}
+
+.autoFont {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize !important;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.flickity-button:hover {
+    background-color: #004c4c;
+}
+
+.contact-page a {
+    color: #777777;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .titleHeight {
+        height: 15px
+    }
+
+    .titleHeight2 {
+        height: 15px
+    }
+}
+
+@media (max-width: 640px) {
+    .inspiro-slider .slide .slide-captions h1, .inspiro-slider .slide .slide-captions h2 {
+        line-height: 50px;
+    }
+
+    #topbar .top-menu > li > a {
+        font-size: 11px;
+        height: 40px;
+        margin-right: 15px
+    }
+
+    .inspiro-slider .slide .slide-captions h2 {
+        font-size: 20px;
+
+    }
+
+    .mobilecontainer {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .mainMenu-open #header #mainMenu {
+        overflow: auto;
+    }
+
+    #header .header-inner, #header #header-wrap {
+        height: auto !important;
+    }
+
+    #header {
+        height: 80px !important;
+        line-height: 80px !important;
+    }
+
+    #header #logo > a img {
+        max-height: 70px;
+        padding-bottom: 0px;
+    }
+
+    .lines {
+        top: 0px;
+    }
+
+    .midBanner h5, .midBanner h2, .midBanner p {
+        padding: 0 20px !important;
+    }
+
+    .midBanner .btn-outline {
+        margin: 0 20px;
+    }
+
+    .midBanner h2 {
+        font-size: 30px !important;
+    }
+
+    .midBanner p {
+        font-size: 15px !important;
+    }
+
+    .accordion .ac-content p {
+        font-size: 15px;
+    }
+
+    .accordion .ac-item .ac-title {
+        padding-right: 15px;
+    }
+
+    .heading-text .display-1 {
+        font-size: 30px !important;
+    }
+}
